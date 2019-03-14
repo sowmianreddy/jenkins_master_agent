@@ -15,13 +15,13 @@ def dockerTemplateBaseParameters = [
   environmentsString: '',
   extraHostsString:   '',
   hostname:           '',
-  image:              'manohar4524/jenkins-agent:latest',
+  image:              'sowmianreddy/jenkins-agent:latest',
   macAddress:         '',
   memoryLimit:        null,
   memorySwap:         null,
   network:            '',
   privileged:         false,
-  pullCredentialsId:  "manohar4524:manumanu143",
+  pullCredentialsId:  "sowmianreddy:Mydocker@1818",
   sharedMemorySize:   null,
   tty:                true,
   volumesFromString:  '',
@@ -41,7 +41,7 @@ def dockerCloudParameters = [
   dockerHostname:   '',
   name:             'docker.local',
   readTimeout:      60,
-  serverUrl:        'tcp://10.142.0.2:2375',
+  serverUrl:        'tcp://35.188.157.192:2375',
   version:          ''
 ]
  

@@ -24,9 +24,9 @@ elif [ -z "$TARGET" ] || ([ "$TARGET" != "master" ] && [ "$TARGET" != "agent" ])
 fi
 
 if [ "$TARGET" == "master" ]; then
-  IMAGE_NAME="manohar4524/jenkins-master"
+  IMAGE_NAME="sowmianreddy/jenkins-master"
 else
-  IMAGE_NAME="manohar4524/jenkins-agent"
+  IMAGE_NAME="sowmianreddy/jenkins-agent"
 fi
 
 IMG_TAG="latest"

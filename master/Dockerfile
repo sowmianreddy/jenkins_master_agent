@@ -2,7 +2,7 @@
 FROM jenkins/jenkins:2.150.1
 
 # Image ID and Tag for the build agent
-ENV AGENT_IMAGE "manohar4524/jenkins-agent"
+ENV AGENT_IMAGE "sowmianreddy/jenkins-agent"
 ENV AGENT_TAG "latest"
 
 # Set default number of Jenkins executors on the master
